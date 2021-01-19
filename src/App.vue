@@ -1,13 +1,16 @@
 <template>
+  <Header />
   <div class="container mt-4">
-    <Markdown/>
+    <Markdown />
   </div>
 </template>
 
 <script>
 import Markdown from '@/components/Markdown'
+import Header from '@/components/Header.vue'
 export default {
   components:{
+    Header,
     Markdown,
   }
 }
